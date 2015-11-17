@@ -65,8 +65,9 @@ The data about docking stations:
 
 ##Geometries
 
-In addition to velobike data we're publishing directions and districts geometry. This information contain OpenStreetMap data and licensed under [Open Data Commons Open Database License](http://opendatacommons.org/licenses/odbl/). 
+In addition to velobike data we're publishing directions and districts geometry. This information contain OpenStreetMap data and licensed under [Open Data Commons Open Database License](http://opendatacommons.org/licenses/odbl/).   
 
+The directions paths are calculated by [OSRM](http://project-osrm.org/) (pedestrian profile).   
 
 © [OpenStreetMap contributors](http://openstreetmap.org)
 
