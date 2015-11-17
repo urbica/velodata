@@ -27,6 +27,8 @@ The data about docking stations:
   
 
 ####Directions
+The source data doesn't content GPS-data. We calculated shortest paths using [OSRM](http://project-osrm.org/) (pedestrian profile).   
+  
 `source` source station code  
 `source_district` source district id   
 `source_subway` distance to the nearest subway from the source bike station  
