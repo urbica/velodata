@@ -3,11 +3,14 @@ Urbica Design analyzed the performance statistics of the city bicycle rental in 
 
 We're publishing the aggregated data used in the project. 
 
-The data represented in the [GeoJSON](http://geojson.org/) format
 
-There are two datasets:
+VeloBike publishing under the [Creative Commons Attribution-NonCommercial license](http://creativecommons.org/licenses/by-nc/4.0/)
 
-####Bike stations
+Attribution is required: 
+© [Urbica Design](http://urbica.co/)
+© [Velobike.ru](Urbica)
+
+####stations_data.csv
 The data about docking stations:  
 `code` docking station id  
 `name` station name (in Russian)  
@@ -26,8 +29,8 @@ The data about docking stations:
 `lon` longitude  
   
 
-####Directions
-The source data doesn't content GPS-data. We calculated shortest paths using [OSRM](http://project-osrm.org/) (pedestrian profile).   
+####directions_data.csv
+
   
 `source` source station code  
 `source_district` source district id   
@@ -48,7 +51,7 @@ The source data doesn't content GPS-data. We calculated shortest paths using [OS
 `fares_season` 'Season' fare percentage  
   
   
-####Districts
+####directions_data.csv
 `id` district id (used in stations and directions district reference)  
 `name` district name (Russian)  
 `district_rides` rides count started and ended in the stations inside the district  
@@ -58,14 +61,14 @@ The source data doesn't content GPS-data. We calculated shortest paths using [OS
 `local_rides_percent` the ratio district_rides / total_rides in percent  
 `name_en` district name (English)  
 `name_ru` district name (Russian)  
-  
-  
-## License
 
-The data distributing under the [Creative Commons Attribution-NonCommercial license](http://creativecommons.org/licenses/by-nc/4.0/)
 
-Attribution: 
-© [Urbica Design](http://urbica.co/)
-© [Velobike.ru](Urbica)
+##Geometries
+
+In addition to velobike data we're publishing directions and districts geometry. This information contain OpenStreetMap data and licensed under [Open Data Commons Open Database License](http://opendatacommons.org/licenses/odbl/). 
+
+
+© [OpenStreetMap contributors](http://openstreetmap.org)
+
 
 
