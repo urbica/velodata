@@ -8,7 +8,7 @@ VeloBike publishing under the [Creative Commons Attribution-NonCommercial licens
 
 Attribution is required: 
 © [Urbica Design](http://urbica.co/)
-© [Velobike.ru](Urbica)
+© [Velobike.ru](http://velobike.ru)
 
 ####stations_data.csv
 The data about docking stations:  
